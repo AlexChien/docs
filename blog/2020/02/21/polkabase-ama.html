@@ -1,0 +1,136 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>PolkaBase AMA | DARWINIA：如何打造资产互联网？ · Darwinia Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="非常荣幸能够参加「链读」AMA，以下是此次AMA的全部内容。"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="PolkaBase AMA | DARWINIA：如何打造资产互联网？ · Darwinia Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/21/polkabase-ama"/><meta property="og:description" content="非常荣幸能够参加「链读」AMA，以下是此次AMA的全部内容。"/><meta property="og:image" content="https://alexchien.github.io/docusaorus/docusaorus/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://alexchien.github.io/docusaorus/docusaorus/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/docusaorus/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://alexchien.github.io/docusaorus/docusaorus/blog/atom.xml" title="Darwinia Documentation Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://alexchien.github.io/docusaorus/docusaorus/blog/feed.xml" title="Darwinia Documentation Blog RSS Feed"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-159909608-2', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><script src="/docusaorus/js/scrollSpy.js"></script><link rel="stylesheet" href="/docusaorus/css/main.css"/><script src="/docusaorus/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/docusaorus/en"><img class="logo" src="/docusaorus/img/logo.png" alt="Darwinia Documentation"/></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docusaorus/docs/en/doc1" target="_self">Docs</a></li><li class=""><a href="/docusaorus/docs/en/doc4" target="_self">API</a></li><li class=""><a href="/docusaorus/en/help" target="_self">Help</a></li><li class="siteNavGroupActive"><a href="/docusaorus/blog/" target="_self">Blog</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/docusaorus/img/language.svg" alt="Languages icon"/>English</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/docusaorus/zh-CN">中文</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Recent Posts</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Recent Posts</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docusaorus/blog/2020/03/12/crab-coming">Darwinia最后一版测试网络「Crab」即将发布</a></li><li class="navListItem"><a class="navItem" href="/docusaorus/blog/2020/03/12/crab-coming-en">DARWINIA Final Testnet “Crab” is Coming!</a></li><li class="navListItem"><a class="navItem" href="/docusaorus/blog/2020/03/08/bgu2020">DARWINIA应邀参加Web3基金会主办的#BGU2020</a></li><li class="navListItem"><a class="navItem" href="/docusaorus/blog/2020/03/05/builders-program">Darwinia加入Substrate Builders Program</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docusaorus/blog/2020/02/21/polkabase-ama">PolkaBase AMA | DARWINIA：如何打造资产互联网？</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="lonePost"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/docusaorus/blog/2020/02/21/polkabase-ama">PolkaBase AMA | DARWINIA：如何打造资产互联网？</a></h1><p class="post-meta">February 21, 2020</p><div class="authorBlock"><p class="post-authorName"><a href="http://twitter.com/DarwiniaNetwork" target="_blank" rel="noreferrer noopener">@DarwiniaNetwork</a></p></div></header><div><span><p><img src="/docusaorus/blog/assets/doc16-1.jpeg" alt=""></p>
+<p>非常荣幸能够参加「链读」AMA，以下是此次AMA的全部内容。</p>
+<p>主持人：Yuki，链读品牌负责人
+嘉宾：王晓寅，DARWINIA Co-Founder</p>
+<!--truncate-->
+<p><strong>01、您好，请先简单介绍下Darwinia这个项目，它主要是想要解决一个什么样的问题，主要的应用方向是什么？</strong></p>
+<p>Darwinia主要是基于Substrate开发的跨链应用枢纽和资产互联网络，主要为区块链应用提供应用互操作和资产跨链服务。目前已开展业务方向主要包括NFT非标资产上链服务和跨链市场，稳定币的跨链转接桥，还有资产兑换协议等等。</p>
+<p>目前已经有一些项目计划使用Darwinia的应用跨链服务，包括开放区块链游戏Evolution Land，还有DAI支付应用链，NFT上链服务，NFT跨链拍卖市场等等，这些项目都将成为Darwinia早期生态的重要成员。</p>
+<p><strong>02、据了解你们两位Co-Founder都是Bitshares（比特股）早期核心成员，可以讲讲你们的一些经历吗？</strong></p>
+<p>大概从2012年开始，我们两位Co-Founder就已经开始接触和了解加密社区，Bitshares是其中一个非常重要和有意思的项目，最早提出了一些去中心化交易所和稳定币的概念，这些概念的应用到今天已经有了长足的发展和落地。Bitshares是我们参与比较深的一个开源项目，我个人还曾经参与过Bitshares 1.0的核心开发，当然我们一直保持开放心态，对整个加密生态和其他项目也有关注和参与，例如Ethereum, MakerDAO, NEO等等。</p>
+<p>大概2018年的时候，我们成立了Itering新加坡公司(<a href="https://www.itering.io/">https://www.itering.io/</a>)，现在是Darwinia开源软件的开发商，也是Darwinia的主要开发团队。</p>
+<p><strong>03、为什么会选择加入到波卡生态？现在越来越多的团队转到Substrate/Polkadot生态，波卡有哪些吸引你们的？现在在波卡上的开发过程中还存在哪些问题？</strong></p>
+<p>最早是因为有关注以太坊，所以对Gavin Wood和Parity做的工作也一直比较感兴趣，最终决定加入波卡生态，我想还是因为Substrate，我们都知道Substrate是一个开发区块链的框架，目前的主要实现语言是Rust，大概19年初的时候，我们当时在考察一些前沿的区块链工程技术时，也深入的研究了一下Substrate，发现这个框架的设计在很多方面是非常具有前瞻性的，包括模块化设计，运行时环境等等，再加上之前对Parity的印象很好，所以大概有了一个感觉，那就是基于Substrate开发的应用链未来应该会有一个蓬勃的发展。</p>
+<p>另外，Substrate框架跟我们团队的匹配度很高，我们的团队Itering一直致力于区块链应用的大规模落地，因此研究和开发的技术方案主要针对应用落地这个方向，包括跨链技术Darwinia Relay，分布式秘钥管理服务DKMS，链上随机数，NFT可识别性等等，同时，区块链网络又是一个复杂的网络系统，需要有很坚强的底层支撑和安全保障，应对这个问题离不开广泛的开源社区帮助和强有力的合作伙伴。通过一年多的使用与学习，我们认为Substrate是非常有棒的一个区块链框架内核，有意思的是，我们的团队也被其主要实现语言Rust圈粉。</p>
+<p>早先，我也开发和使用过其他的一些区块链开源框架，例如Bitshares所使用的Graphene框架，其设计理念在2013时还是很新颖和前沿的，但是我认为有点可惜的是，Graphene因为没有得到持续的支持和维护，这之后没能在区块链开源社区快速发展起来，有一些设计也没有能够得到更新，现在的发展已经显得有点停滞。区块链项目和其推动的开源框架有时候会存在发展重心的问题，希望Polkadot和Substrate可以跳过Graphene曾经遇到的这个坑，让Substrate框架能够长久的惠及整个行业。</p>
+<p>目前，短时间内，我们期待Substrate 2.0可以尽快稳定下来，可以早日投入生产环境，同时，作为开发者我也认同 It’ll be done when it’s done.</p>
+<p>除了Substrate之外，波卡还有很多其他的设计很吸引我们，其中包括跨链架构，共享安全池的平行链设计，SPREE模块，Web Assembly技术等等，这些技术将可以打造真正无需信任的跨链网络，而不仅仅是在区块链网络之间建立消息沟通机制。</p>
+<p><strong>04、DARWINIA既然是Polkadot生态的一员，你觉得DARWINIA在Polkadot生态中的独特之处是什么？</strong></p>
+<p>DARWINIA既然是Polkadot生态的一员，你觉得DARWINIA在Polkadot生态中的独特之处是什么？</p>
+<p>按照我的理解，Polkadot致力于打造一个跨链的骨干网络，而Darwinia更多的面向应用和相互连接的资产，因此Darwinia将可以依托这些应用和资产帮助Polkadot生态打造更丰富的落地应用，让普通用户早日间接享受Polkadot跨链的便利。</p>
+<p>同时，Darwinia创新性的提出了去中心化背书技术和Darwinia Relay技术，这些技术将可以帮助打造更多的异构链跨链转接桥，在帮助Darwinia实现资产互联的同时，也在帮助Polkadot生态打造更多的跨链转接桥基础设施。</p>
+<p><strong>05、作为波卡生态的第一个游戏链，游戏和应用链有哪些跨链业务？</strong></p>
+<p>Darwinia是波卡生态中最早在游戏方向开展业务的成员，Itering开发了一款链游Evolution Land，已经上线以太坊和波场，后面还计划基于Substrate研发游戏应用链，并成为Darwinia的一个子链。这个方向的技术难点主要是如何开发出一个适合Substrate的高并发并且出块速度快的共识算法，我们已经在进行相关的研究，相信不久之后大家可以看到解决方案。</p>
+<p>另外，Darwinia还把跨链NFT资产作为优先级最高的业务拓展方向，游戏资产无疑是NFT资产中最重要的一类，将会帮助我们获得很多的游戏玩家用户。通过发挥跨链和可连接性方面的优势，可以比较容易的形成一个跨链NFT交易市场。与此同时，Darwinia作为跨链应用枢纽和资产连接网络，提供的是通用的跨链和连接服务，游戏业务只是Darwinia应用生态的一个部分，还有很多其他的业务可以在上面生根发芽，比如Defi发展很快，而且应用都比较落地，可以挖掘很多机会，我们也有打算在这个方向进行更多合作和探索。</p>
+<p><strong>06、你们可能是第一个采用双通证的Polkadot生态项目，为什么要采用双通证？这有什么优势？</strong></p>
+<p>Darwinia虽然有两个通证RING和KTON，但它们其实并不是对等关系，而是主次关系，KTON本质上是RING的衍生通证，通过在Staking过程中承诺锁定RING一段时间获得，因此RING才是最原生的通证。</p>
+<p>RING是达尔文网络的原生资产，是基础通证，作为支付通证和燃料通证。燃料费又包含交易费用、合约执行费用、网络带宽费用、存储费用等。</p>
+<p>KTON是由用户主动锁定RING获得的，初始供应量为0，用户可以选择锁定RING 3至36个月不等。KTON的本质是给与承诺长期锁定RING的用户进行流动性丧失的弥补，KTON本身可以交易，转让。KTON作为承诺锁定通证，是Commitment通证化的表现，只能通过锁定RING获得。我们对POS有一些不一样的理解，传统的POS很多都是基于一个币龄的设计，所谓的币龄就是过去持有这个Token多长时间，然后基于这个做一个权益的工作量证明，但是我们认为这并不是衡量权益工作量证明的最佳的一个口径，我们认为最佳的是基于Commitment，也就是说你未来承诺持有这个币多长时间，这是我们的一个思考和结论，基于这个我们才有一些不一样的设计。而KTON就是基于这个考虑设计出来的，并且KTON和RING一样也可以参与Staking。</p>
+<p><strong>07、双通证是如何进行Staking的，Staking机制又是怎样的？</strong></p>
+<p>在Darwinia中，RING和KTON都可以参与Staking，而KTON又是通过RING参与Staking时锁定而来，因此Staking会比其他的Staking系统稍微复杂一点，具体可以参考下图：</p>
+<p><img src="/docusaorus/blog/assets/doc16-2.jpeg" alt=""></p>
+<p>在系统内部，为了更准确的标识RING和KTON对Staking的贡献比，我们引入了类似POW系统中的算力概念，以代表两种通证对Staking的贡献。在默认设置中，所有的RING和所有的KTON所贡献的算力数量是一样的，而每个用户的算力多少，由其参与Staking的通证占所有Staking通证的比例计算得来。</p>
+<p>然后再回到经济模型上，用户持有RING和KTON都可以进行Staking，可以获得收益。Staking的过程可以理解为POS挖矿，开始Staking了就能获得收入，解除Staking之后，RING和KTON都需要14天才能到账。</p>
+<p>所有用户可以获得的Staking总数之和是达尔文网络每年的通胀总数。Staking产生的总收入初始按照1:1的比例，分配给所有采用RING去Staking和采用KTON去Staking的客户。也就是说如果初期KTON数量很少，则Staking KTON的用户能获得是收益就会变的很多。RING和KTON持有人都可以参与社区治理，未来达尔文网络的子链接入也需要通过RING来获得插槽。</p>
+<p><strong>08、DARWINIA目前有哪些合作伙伴？</strong></p>
+<p>Polkadot是我们最重要的合作伙伴，具体来说包括一系列跟W3F和Parity的合作，我们一直积极参与波卡生态建设，包括参与一些线上线下活动，最近也拿到了W3F的一个Grant。</p>
+<p>其他的合作伙伴还有MakerDAO，麦子钱包，imToken，币乎，Staking节点运营商等等，这些合作伙伴的加入帮助Darwinia丰富了自己的生态。未来我们还有更多的合作伙伴将加入，包括已经很多已经宣布和未宣布的。</p>
+<p><strong>09、跟MakerDAO在会有什么进一步的合作吗，Defi方向你们有什么想法？</strong></p>
+<p>在去年，我们已经宣布将会跟MakerDAO合作，Darwinia将搭建稳定币DAI跨链转接桥，并基于Substrate开发支付应用链，DAI将成为其跨链转接桥支持的首个稳定币。稳定币DAI将可通过Darwinia网络跨链至波卡平行链和Darwinia应用链。</p>
+<p>DAI的跨链转接桥将允许用户使用Darwinia网络作为转接桥在以太坊网络和Darwinia网络间转移代币，例如DAI作为基于ERC20的稳定币可从以太坊转接桥合约进入，并转移至Darwinia网络，进入波卡其他平行链，或者Darwinia支付应用链。</p>
+<p>Darwinia正在研究高性能高TPS的应用链支付方案，以更好的让用户使用稳定币来进行链上支付。通过这样的基础设施改进，将有机会降低游戏用户在支付方面的使用门槛，通过使用稳定币代替来价格波动高的原生货币有利于提高普及率，用户将可以使用稳定币DAI来购买游戏道具和资产。推动区块链技术在游戏行业的大规模使用一直是Darwinia网络主要愿景之一，目前区块链游戏行业仍然面临很多用户体验挑战和基础设施门槛，稳定币支付网络就是其中重要的一方面，跨链转接桥技术和Substrate技术是非常重要的适合用来改进基础设施的新技术。</p>
+<p>目前，我们正在沟通具体的Token Bridge方案，在方案确定后，下一步最终要的是将方案落实，并开发实现出来。</p>
+<p>谈到Defi，我们认为Defi是开放金融运动重要的形式之一，有着非常好的可组合性，最近聊的火热的FlashLoan就有体现合约可组合性的威力，因此Darwinia将会把主要精力放在现有资产的组合和连接，而非重新创造新的资产，这也符合我们作为跨链应用枢纽和资产互联网的愿景。目前我们已经计划在落地的Defi业务方向包括不少这方面的例子，其中就有Dai跨链转接桥和支付应用链，类Uniswap的资产兑换协议，NFT交易市场等等，都是这一思路的体现。我们也非常欢迎各个公链上的Defi资产和应用跟我们进行合作，我们的跨链技术将帮助你们到达更广阔的市场。</p>
+<p><strong>10、Darwinia-ETH Relay Module（跨链转接桥模块）这个方案跟其他现有的方案有哪些区别？技术创新点是什么？</strong></p>
+<p>已经发布的Relay module是Darwinia Relay体系的一个先行概念验证版本。目前行业中的跨链解决方案主要分为两类，同质链跨链：比如波卡系各个平行链，由于都采用Substrate开发，共享验证人池，所以通过波卡这个中继链实现跨链比较容易；而异构链跨链的解决方案基本上是近似联盟信托的方式，引入多签、质押等机制，通过信任一组受托人来维护跨链资产安全的。</p>
+<p>回顾一下跨链转接桥的历史，之前开源的有Consensys研发的BTC Relay，这是一个BTC至ETH的单向桥，通过使用以太坊智能合约实现BTC的SPV客户端来验证BTC上的交易。此外，还有Kyber Network开发的WaterLoo EOS-ETH双向转接桥，分别在ETH和EOS上实现对手链的轻节点，但是因为智能合约的运行成本比较高，WaterLoo对于Ethash的验证逻辑还是做了一些妥协，没有做到完全去中心化。此次，Darwinia开源的 eth-relay模块是使用Subtrate开发和实现的，相对于智能合约，Substrate运行时模块提供更多的灵活性，特别是在燃料费和运行成本方便可以做很多优化，在保证完全去中心化的基础上还可以提供更好的经济可行性。</p>
+<p>Eth-relay模块是一个ETH-Darwinia单向桥，通过在Darwinia中开发一个以太坊的Light Client实现。最近，Darwinia还将发布一项最新的转接桥研究成果Darwinia Relay。</p>
+<p>Darwinia Relay是一个基于超级轻客户端的解决方案。吸取了早期BTCRelay失败的经验，可以解决性能和经济可行的问题，其引入了Merkle Mountain Range（MMR）承诺，Optimistic Verification Game，Super Light Client框架，Relay激励模型等技术实现基于事实且无需信任任何中心或半中心化实体的异构链跨链转接桥。并且，通过以Darwinia为中继，搭建与外部链之间的桥，使得资产可以自由的在各个异构区块链网络中流转移动。</p>
+<p>目前Darwinia Relay的设计正在进行内部Review，详细的方案将会在Review之后公开。</p>
+<p><strong>11、项目目前是什么进度，什么时候正式上线，开发路线计划？</strong></p>
+<p><img src="/docusaorus/blog/assets/doc16-3.jpeg" alt=""></p>
+<p>从去年7月份开始，我们已经陆续发布了三个测试网络，最近的一个测试网络是Icefrog，可以在Subscan浏览器(<a href="https://subscan.io/)查看这个测试网络的数据">https://subscan.io/)查看这个测试网络的数据</a> <a href="https://icefrog.subscan.io/">https://icefrog.subscan.io/</a>。目前主要的功能已经开发完成，但还需要进行更多的安全审计和测试，此外，我们也在等待Substrate稳定下来，最终主网上线的时间应该会比Polkadot主网稍微晚一点，目前估计在三四月份概率比较大。在主网上线之前，我们还会发布我们最后一个测试网络，我们希望这个测试网络将会长久的运营，即使是主网上线之后也会保留，供开发者测试使用。</p>
+<p>我们目前在招聘Rust，有兴趣的小伙伴可以联系我们，邮箱：<a href="mailto:hello@darwinia.network">hello@darwinia.network</a></p>
+</span></div></div><div class="blogSocialSection"><div class="blogSocialSectionItem"><a href="https://twitter.com/share" class="twitter-share-button" data-text="PolkaBase AMA | DARWINIA：如何打造资产互联网？" data-url="https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/21/polkabase-ama" data-related="true" data-show-count="false">Tweet</a></div></div></div><div class="blog-recent"><a class="button" href="/docusaorus/blog/">Recent Posts</a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><div><h5>Docs</h5><a href="/docusaorus/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/docusaorus/docs/en/doc2.html">Guides (or other categories)</a><a href="/docusaorus/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/docusaorus/en/users.html">User Showcase</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><a href="/docusaorus/" class="nav-home"><img src="/docusaorus/img/logo.png" alt="Darwinia Documentation" width="160"/></a><div class="share-links"><div><a href="https://medium.com/@DarwiniaNetwork" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4BAMAAABaqCYtAAAAJFBMVEVHcEx7cK97cK98bbZ7ca57ca97ca98cK97ca97cK57ca97cK5wzXcXAAAAC3RSTlMA6c8Mn1yPbyW6RucScUEAAAExSURBVDjL7ZShb8JQEMZfgG60iqVbQlJDgqxhODKDmJvBz5CQYDB4TBNkzTxmHlUGpI/753jfvZUWesUQHKeu3y/Xu/e9axVdCfWAN0P9iQj/pfyB4VYh1pZp5PVV/to5hJqFO+SDQs8DBMdCH4VhASYRlIDzsUnds2m7KF1wGuUdVKHR+2keAT6dMgE2s3kuoQftC/Msy9AZGS3GPBMBduwJdN0XIHzwkPwJkI8Qku9KkA//TeNYhEO2IZqJMDXis1aBCPfw/s0hESY9o85dGdobjysguzqrgGx+UAE31iMZ0i+7W4Yp7rLD91KGI+McdnAhwD3viMY81Lrcvh8jmB2PvGxLC3u7gTl9omGDqM2fRj+HKa9XQOmHLcxKGb7yh2WariiZ2ggf/6E7w5crcQRAZIKOcJdRHwAAAABJRU5ErkJggg=="/></a><a href="https://t.me/DarwiniaNetwork" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4BAMAAABaqCYtAAAAIVBMVEVHcEx7cK95cK97cK57cK57cK98cK97cK97cK57cK97cK6mrj9uAAAACnRSTlMAhw7iKK5Iye5eWDkJwgAAAR1JREFUOMvt1b9rwkAUB/Bvok3rJtR2uCkZiq2b0EGcshU6FQcHp4Bbx9JFN0E6ZAod3UIIhvdXej+C7em7m9zaN+TgPtzdy0vuDuEtOWIcY0jO+IBwY4mpGyuQJ/7x4jh/cmI1QOjCOoMTxymAiMc5VAQcyuWAlxRXDNaFtOQL6JzjRi83kQmNznClVgvFVj7fT7AZ6FSWlRoubNwX2hJ6Vs3CwjLVFk33sWpzC42FC7kDZHTtwptJl2QGRjZW97LvgWhmFeiY7Sbr5VRrOxbo5z2bNdGbwRvuY5fG8MphOxA7DvstCg6LFtc+zDnMcBf/LpCFaaDr3uNR6KkDFhP1q8S4ZlFn+YlH93ZovsXfOxO8h7H3GPdeAL6r4wA5SoNsrYNlIwAAAABJRU5ErkJggg=="/></a><a href="https://twitter.com/DarwiniaNetwork" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4BAMAAABaqCYtAAAAJFBMVEVHcEx7cK56bbB7cK57cK57cK97cK97b697cK57cK97cK97cK6/O/qOAAAAC3RSTlMA8AngmXxTGcgxrQuz9RgAAAHNSURBVDjLjVW7S8NAGD+LbY1TkZaCWSKIoG6C9dFFpBW0SwU3l6AgYpeqILgp4tTFB04uRUGETiFGkt4/5+Xu+y53uTT4m5L73fd+HCESy0cPtrfZfiImChc25fC+DK58SCXW+yk5haO05mjkKdXQULlFmsKuYnCQJsPE7Cs1sIGcZZukj6LXlE4ULQyyyFCEM00zscPJXjb5y7U2s0k/1lukE9Bl5KV+NN9CTXVGHutZdYg1oLU48oCZ5BmIbCWA4t4SGC3xw+GzINdE6OLPJbPCuNWEf57PNg9vSBbAsxXeIo6a7Qp5x3TE9R5rZYrA2Tt2ck7pj1amgHTgEsPbPUgKJ9lVUZJQnN5qZEiEl98faktBRn0i1LtXKglF9IhaPMQM5BLIOY1cRUkbHFPRQ7KZFE9ihA5Bd42V4Sljj0ESaHXfiITZglpHilbsjQASj23KAcqYwBR8JSkqYctUoNjMNTetlRVb3vNhJsuyj11oMGXW5VjFbQHuPgJXkvMYgInx2QsmoCNbuI4hNxxz43TlIFVPYu5mlBokrMF26+DTGMH84c0d+9yFoeQkgSc3a4bo1v/WW+5izF+p+ctYS2qtn/MAOBnvg2U8HX8bGacuzEIM4QAAAABJRU5ErkJggg=="/></a><a href="https://github.com/darwinia-network" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4BAMAAABaqCYtAAAAKlBMVEVHcEx7cK57cK57cK58bq57cK57cK5/a7F7cK97cK57cK98cbB7cK97cK5qBv59AAAADXRSTlMA9OK4FZ5zCUXNXSmEsKrC2AAAAglJREFUOMt1lLtLxEAQxhfNmXvYiIXIIQiCjQbEwsqDu1JEsFIbQTxULAQFFTwsTtFCULAQ5JSD66wEBRsLwUpsLJJ7cA/3f3F2ZpPsbuIUybK/7O7MN9+GsSAyW7NDQxMrLywmLh2O4a1FkL3Jg5jcN6DCgOrsnWvxqLIBbsSGcmDOhPXw2AUeiTufWdUo7OQlPOExcS/hehxsEkvD0B2L0BrCVxg1Mrvh9PTFBzyzCEUdt4xd+Rs8MNYnqhEsKT5ehkHx+42xxet5KDEh5sowlxKDT13NQU67sRtDrkDOtjwydiUcmsEEZ3TYj5MvsiHjOkzJ1tC7rEOsADJaUrQKAxVtULI9ExYo3Z+YfKQKv7TBhgnTdFiVkjbCwoYztHI+4mPRAQ+fPOp/scZl/H/IaWX8ti7BSEI2R+iEfjH186hjyyaUPUMRRkzYRyLsiVfLhM80i8K7RrqWQ8IfxDkBdYfD+nlMQ3/kijS5fFVlR/6FsOmWeIpRkvRfcfeFI5qHsE3nyWclec9/YfwBq5Kw3J3DlK2if+F6lFkL65L/geD/IIxuwZe1RHDn7IJkVDtoNG5XA4ETEnZ977fZqTNaVg3t6wJa1U1vQW1S0TPtltkEs6FJm4ryXL89UMjw17YGu6G/NX9iHYpxzk04pWaY02Fda37aUaFnuPHYCaG3Y1qqVPFHlaB5f4TVPVm1Z2ZDAAAAAElFTkSuQmCC"/></a></div><div><a href="https://bihu.com/people/1100617" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4BAMAAABaqCYtAAAAJ1BMVEVHcEx7cK56cq97cK97cK97cK97ca57cK57cK58cK97cK57cK97cK75Og5xAAAADHRSTlMA7g+TrSJnethIxTKkC5eQAAABvElEQVQ4y5WVv0tCURTHD2aWOUVUBG+IGsImESIIl8gmHYTaaqihWhqkGhuiJYI3SEM0NAehg0VtLaLpy+4f1T3X++O8e98V+i763sf3zo97zlcAqtXZu2XwaCpgrOlh2ZBxFRNZroWMdY4SWKrERhq2XXjMlLpOUk/MaMFi+4zqNV4gi2uXsExgwU7dLoIqakg2WWWuerURLLEkLQmWTmSsI3rxbAJtnl6Z1G4R6ohzGCangwwQBvEUdHpDvFK/VKeRUUEI/NFln8uMCMQH82cnOBAO7PFve7LnVRvO8zERqRUADm1YUAV3ASZsWIOUrKkBWQtGOg92I0s3kL9sWsJfgBUhDQcqDdk2JXGnD/Clhu9/cOxr4wkdvPPT+fSVwqPMkCa0IRWaJliQt+9NhUzb8JtPiHi0jnlbEI9sjbetwj9bNsQnIPf4AOJQonJ5m8K+ru1a3qEDpnZnghEYxtfdbBWI8GpwcbPyesYjMol4vDuXW2YdxAGsJy8SjhzvcGvMlrlLL9iFxy5QGx6jQTU9FoW695gbatFji4nmR/wmwTazoe1P4HoccTbXHYsek8dyK75/B/gIXujlHztymte5NqsQAAAAAElFTkSuQmCC"/></a><a href="https://weibo.com/DarwiniaNetwork" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4BAMAAABaqCYtAAAAJFBMVEV7cK5HcEx7cK57cK17cK97cK97cK97cK57cK57cK97ca97cK6hJEZ6AAAADHRSTlP/AOYQxHoqZ6Y/UZKe82coAAACIUlEQVQ4y41VvW/TUBC/Oi5NYfrxkpC0i0MoArE0FahUXXAkvtSFAAHERPioBCxEUCTEElhYCUggxFIzdcRC4u/j7n3Ez5FtcYNl3+/u3t3v7p0J2B5QgZx5DRDWIiqUIGHwFpXIMmiNSiWhrXKwR6/KwRW6Ug6GFJWDQYHu3OjgY5n9CbC8LAFrAuJyMbiqQRRXEYwGN5jXcnKCO4uu15/szIsOx2j42F8+SCvC+w8i6qHjYTclC61YAnYpBKJ8dVA6XQVMaYbfXme1mK86NinNMjprsJaQd5do2KAYh85xbMBOcI+fnylep+4ctI5AXx5N6growo7hS4viNoe1w3U8h3HOq49pyBlrGeZBXe3M1hka3fOD0Tsdvy3KScs4HhPNtu5+8KlvSdx4k0XddWRt8MdPrz9s3IzmA3WN0ac+rYozu/AVO1NLiJr3jo+8yHxK/br9Mb88cmAX0oBUZ3xoh2jdgR+E78CU07DdO+XAVOxWhLZEK+vwxisV+xpU/+SSJqfue8YCdtU0vDSRA3SQdpYQg9xBmphwMvJb2Yg32YINEpNl6s97CBVRranP2uRPLlhlk5ew4TK+zwwzPTe/9u5L3ImU+cU4uj5b5n9R8BY4ImOUu3/noW4TnY7MDUInvwr+QB2JZk9muzVduHJyi/Z/6MFcxFiuuul8Vrhe9h5+23/xfkD/LZVLqnK9VS7GypVauYwr13j1D6Di1/EPT15bwQ40s+UAAAAASUVORK5CYII="/></a><a href="#" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4BAMAAABaqCYtAAAAJ1BMVEVHcEx7cK57cK97cK56cbB7cK57cK97cK97cK57cK57cK97cK57cK5LMTsCAAAADHRSTlMA32q3EDaNTe/LoSSkSkY9AAAByUlEQVQ4y32VO0/DMBCAr6UvqQsIUIXIUCEQSwcojB1SsSGGwIDKY0CwQNWhA0OLWFCRkCADFLF1KEIMoA4ZWaOqJS3+UZxjO3GeN1zsfPH5fHc5A0Byk4TI/CqgZBUSKlYRYYlEyBgXkkgpQjUaPkVbpXYr0dAEJRoScEZLWy9RsKvhqdJXofATmByHwDcQchSAY3Cl4YdFCSZ9UF7oiTWFG/gqZQOqMx5oGQD53jI1qeN3KUWG1OoMmaLeI7+ob2X454MJGT6DMJvV+55NEZ55nD2of8hQPmX+cnK+vvLuwqbLUo2uSp+HegjcL/DBbtBsuqOKYSvg0E/f3VxhcNZ58yq5VmNw5CTk3pcdhEMxT+DuyTusl9YDznosK8LdGrqTozmqmCzEFC5wWLdjh8tLNBc5Bif8AGWqTuiRDDsXrEy2GSx4gpzh0DTs6WIotLPmXynM8iCVPTAhoAY3aypceOAphxa0Uc3pqgwHHE7bRLLOMyQq3uKZH0mw6vk/6ZEkuxU/dAIJsEMC0NREMfWCkEwN150AJI/XFDVZH4FgR/z+IhNtEA5tGZZiIK/42CYV295iG2NsS41txrFtPP4CiLg6Onh1/AOW8A5j2jJ12wAAAABJRU5ErkJggg=="/></a><a href="mailto:hello@darwinia.network" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4BAMAAABaqCYtAAAAJ1BMVEVHcEx7cK96cK97cK57cK56b697cK57cK57cK98cLB8ca97cK97cK7X/FnnAAAADHRSTlMAcmbD4BTzooYoQlTd6cQGAAABcElEQVQ4y83VP0+DUBAA8GubhkKXOpg4dPADdCyDkc04kDBgSvwAJg41DLgzkLg6OBhnJ1ydOrmY9wLV3ofyoIX3R3ir3kKbH+X13bs7AOBqiR1xcQwUgxg7o5gRptgTJf0Qe2MG1/14C/N+/ASvHxkE/cgBDfF3yI7UOPEk3IIWjwI5JqpZGLToeiyUbeyxVYuZhb6MESaTFk8hLV6F2cEWhhIO8EZgTicpI3xg1tgQd6CiE5ftNqolFIRndJtt+KCjHfCn/Tbqq4qwwjsQT9DQjuu1gyLsQKomSvGGKqcLKZ3nb1XldOAUOTVGsdx/0zBnIVW/D5vv32jHbn0DOHWaVYw4/Uv7nT4t1jqOvXWTvkmVBQVH0pmllxqmO3FkI1pBxslhr4cqcRVcKPUXMRkdtfzsOBGYvTC1NPNSFNhZ4Ko4xYcWCx5qFT+X2uFLbwdLQn5vaKT/1PbGIWUcb8bBaBypxmFsHOPmF4Dh1fEDXvxFF7KNXsoAAAAASUVORK5CYII="/></a></div></div><div class="social"><a href="https://twitter.com/DarwiniaNetwork" class="twitter-follow-button">Follow @DarwiniaNetwork</a></div><a class="github-button" href="https://github.com/darwinia-network/darwinia" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://opensource.facebook.com/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/docusaorus/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2020 Darwinia Network</section></footer></div><script>window.twttr=(function(d,s, id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js, fjs);t._e = [];t.ready = function(f) {t._e.push(f);};return t;}(document, 'script', 'twitter-wjs'));</script></body></html>

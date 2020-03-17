@@ -2,74 +2,325 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alexchien.github.io/docusaorus/docusaorus/blog</id>
     <title>Darwinia Documentation Blog</title>
-    <updated>2017-10-24T06:00:00.000Z</updated>
+    <updated>2020-03-12T06:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alexchien.github.io/docusaorus/docusaorus/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Darwinia Documentation news and events.</subtitle>
     <logo>https://alexchien.github.io/docusaorus/docusaorus/img/logo.png</logo>
     <rights>Copyright © 2020 Darwinia Network</rights>
     <entry>
-        <title type="html"><![CDATA[New Version 1.0.0]]></title>
-        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2017/10/24/new-version-1.0.0.html</id>
-        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2017/10/24/new-version-1.0.0.html"/>
-        <updated>2017-10-24T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>This blog post will test file name parsing issues when periods are present.</p> ]]></summary>
-        <author>
-            <name>Eric Nakagawa</name>
-            <email/>
-            <uri>http://twitter.com/ericnakagawa</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adding RSS Support]]></title>
-        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2017/09/26/adding-rss.html</id>
-        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2017/09/26/adding-rss.html"/>
-        <updated>2017-09-26T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>This is a test post.</p> <p>A whole bunch of other information.</p> ]]></summary>
-        <author>
-            <name>Eric Nakagawa</name>
-            <email/>
-            <uri>http://twitter.com/ericnakagawa</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adding RSS Support - RSS Truncation Test]]></title>
-        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2017/09/25/testing-rss.html</id>
-        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2017/09/25/testing-rss.html"/>
-        <updated>2017-09-25T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890</p>
-<p>This should be truncated.</p>
+        <title type="html"><![CDATA[Darwinia最后一版测试网络「Crab」即将发布]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2020/03/12/crab-coming.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2020/03/12/crab-coming.html"/>
+        <updated>2020-03-12T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc19-1.png" alt=""></p>
+<p>Darwinia Crab Testnet（PoC-4）即将发布！**</p>
+<p>Darwinia Crab Testnet（简称 Crab网络）是Darwinia主网上线前的最后一版测试网络，是一个金丝雀网络，为Darwinia的升级和应用部署提供模拟和测试环境，测试环境不仅包含测试所需要的软件运行环境和网络环境，还包括测试经济博弈的经济环境。</p>
 ]]></summary>
         <author>
-            <name>Eric Nakagawa</name>
+            <name>@DarwiniaNetwork</name>
             <email/>
-            <uri>http://twitter.com/ericnakagawa</uri>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New Blog Post]]></title>
-        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2017/04/10/blog-post-two.html</id>
-        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2017/04/10/blog-post-two.html"/>
-        <updated>2017-04-10T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.</p>
+        <title type="html"><![CDATA[DARWINIA Final Testnet “Crab” is Coming!]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2020/03/12/crab-coming-en.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2020/03/12/crab-coming-en.html"/>
+        <updated>2020-03-12T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc19-1.png" alt=""></p>
+<p><strong>Darwinia Crab Testnet (PoC-4) is coming!</strong></p>
+<p>Darwinia Crab Testnet (Crab for short) is the last testnet before Darwinia Mainnet launched, a Canary Network of Darwinia, which provides simulation and test environment for Darwinia’s upgrade and application deployment. The test environment includes not only the software operation environment and network environment required for testing, but also the test economic environment.</p>
 ]]></summary>
         <author>
-            <name>Blog Author</name>
+            <name>@DarwiniaNetwork</name>
             <email/>
-            <uri>http://twitter.com/</uri>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Blog Title]]></title>
-        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2016/03/11/blog-post.html</id>
-        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2016/03/11/blog-post.html"/>
-        <updated>2016-03-11T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.</p>
+        <title type="html"><![CDATA[DARWINIA应邀参加Web3基金会主办的#BGU2020]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2020/03/08/bgu2020.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2020/03/08/bgu2020.html"/>
+        <updated>2020-03-08T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc17-1.jpeg" alt=""></p>
+<p>2020年3月2日至8日，Darwinia应邀参加了由Web3基金会、UBISOFT、BGALLIANCE在2号共同举办的区块链游戏会议#BGU2020。</p>
 ]]></summary>
         <author>
-            <name>Blog Author</name>
+            <name>@DarwiniaNetwork</name>
             <email/>
-            <uri>http://twitter.com/</uri>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Darwinia加入Substrate Builders Program]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2020/03/05/builders-program.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2020/03/05/builders-program.html"/>
+        <updated>2020-03-05T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc18-1.png" alt=""></p>
+<p><strong>我们很高兴地宣布，Darwinia加入了Substrate Builders Program。</strong></p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PolkaBase AMA | DARWINIA：如何打造资产互联网？]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/21/polkabase-ama.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/21/polkabase-ama.html"/>
+        <updated>2020-02-21T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc16-1.jpeg" alt=""></p>
+<p>非常荣幸能够参加「链读」AMA，以下是此次AMA的全部内容。</p>
+<p>主持人：Yuki，链读品牌负责人
+嘉宾：王晓寅，DARWINIA Co-Founder</p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PolkaBase AMA Review “How to build the Internet of assets?”]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/21/polkabase-ama-en.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/21/polkabase-ama-en.html"/>
+        <updated>2020-02-21T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc16-1.jpeg" alt=""></p>
+<p>Ladies and gentlemen, great to have you all here! This time, we have brought together the two-month Polkadot Ecosystem Project AMA series, which has been launched to the 3rd AMA.</p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Darwinia development team Itering wins funding from Web3 Foundation]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/10/web3-grant-scale-en.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/10/web3-grant-scale-en.html"/>
+        <updated>2020-02-10T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc15-1.jpeg" alt="">1</p>
+<p>Web3 Foundation announced a new list of W3F Grants for its funding plan. The project Scale submitted by the Darwinia development team Itering(<a href="http://www.itering.io/"><em>www.itering.io</em></a>), who has received the investment support of Web3 Foundation and has become the officially recognized project of the Web3 ecosystem and Polkadot.</p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Darwinia开发团队Itering荣获Web3基金会资助]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/10/web3-grant-scale.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/10/web3-grant-scale.html"/>
+        <updated>2020-02-10T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc15-1.jpeg" alt=""></p>
+<p>Web3 Foundation公布其资助计划W3F Grants的新一批名单，由DARWINIA开发团队Itering（<a href="http://www.itering.io">www.itering.io</a>）提交的项目Scale得到了Web3基金会的投资支持，成为了Web3生态和Polkadot的官方认可项目。</p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Darwinia发布PoC-3 Testnet（IceFrog）并举办测试网大奖赛]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2020/01/02/icefrog-released.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2020/01/02/icefrog-released.html"/>
+        <updated>2020-01-02T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc14-1.png" alt=""></p>
+<p><strong>Darwinia PoC-3 Testnet “IceFrog” 正式上线。</strong></p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Darwinia ETH-Relay Demo（视频）]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2019/12/13/eth-relay-demo.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2019/12/13/eth-relay-demo.html"/>
+        <updated>2019-12-13T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="darwinia-eth-relay-demo（视频）"></a><a href="#darwinia-eth-relay-demo（视频）" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Darwinia ETH-Relay Demo（视频）</h2>
+<p>ETH-Relay是Darwinia去中心化资产背书技术的核心模块之一。</p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Darwinia开源 “以太坊转接桥” 模块]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2019/12/12/eth-relay-opensourced.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2019/12/12/eth-relay-opensourced.html"/>
+        <updated>2019-12-12T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc12-1.png" alt=""></p>
+<p>Dawinia正在研发去中心化资产背书技术，包括高性能跨链中继服务Darwinia Relay，异构链跨链转接桥，非标资产跨链标准，跨链兑换协议等等。</p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Darwinia社区开发者赏金计划]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2019/09/29/bounty-plan.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2019/09/29/bounty-plan.html"/>
+        <updated>2019-09-29T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Darwinia发起社区开发者赏金计划，社区开发者可以帮助Darwinia修复issue获得奖励，修复不同级别的issue得到的奖励将会不同，奖励最高可达300,000 RING。</p>
+<p>开发者可在Darwinia Github代码库和Gitcoin网站了解赏金计划详情。</p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Darwinia + MakerDAO = dDAI]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2019/09/26/with-makerdao.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2019/09/26/with-makerdao.html"/>
+        <updated>2019-09-26T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc10-1.png" alt=""></p>
+<p><strong>Darwinia将搭建DAI的跨链转接桥</strong></p>
+<p>Darwinia将搭建稳定币DAI跨链转接桥，并基于Substrate开发支付应用链，DAI将成为其跨链转接桥支持的首个稳定币。稳定币DAI将可通过Darwinia网络跨链至波卡平行链和Darwinia应用链。</p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[回顾：「Polkadot中国行 南京站」]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2019/09/23/polkadot-nj-2019.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2019/09/23/polkadot-nj-2019.html"/>
+        <updated>2019-09-23T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc9-1.jpg" alt=""></p>
+<p>2019年9月19日，Polkadot（波卡）中国行南京站见面会在南京大学成功举办。Gavin Wood博士、Alistair Stewart博士和Darwinia Co-Founder Alex Chien共同在本次会议上发表了演讲。</p>
+<p>本次活动由Polkadot、W3F、南京大学普惠三农金融科技创新研究中心以及Darwinia联合举办，由南大普惠金融科创中心主任丁晓蔚教授开场致词，近200位波卡技术爱好者、开发人员及南大师生参与了本次活动。</p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Darwinia现场回顾：2019万向区块链峰会都有那些看点？]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2019/09/18/wanxiang-review.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2019/09/18/wanxiang-review.html"/>
+        <updated>2019-09-18T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc8-1.jpeg" alt=""></p>
+<p>万向区块链峰会看点**</p>
+<p>本周是上海区块链周，在一周时间内，全行业的各类项目方、创始人、技术大咖云集上海，各种酒会，演讲，Meetup让人眼花缭乱，分身乏术。其中，最为核心的就是16-18日为期3天的万向区块链实验室全球峰会。</p>
+<p>万向区块链全球峰会今年已经是第五届，每年都会邀请全球区块链行业的各路精英来到会场各抒己见，而参会听众则能从嘉宾的演讲与讨论中一窥行业未来的走向。在峰会的讲台上，已经诞生了很多个十分具有影响力的成功项目，那么今年的峰会又爆出了哪些令人激动的信息呢？大家就随着我们达尔文网络一探究竟。</p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Darwinia发布PoC-2 Testnet（Crayfish小龙虾）]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2019/09/03/crayfish-release.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2019/09/03/crayfish-release.html"/>
+        <updated>2019-09-03T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc7-1.jpeg" alt=""></p>
+<p>2019年09月03日，Polkadot（波卡）生态中首个应用平行链Darwinia（达尔文网络）发布第二版测试网络，代号“Crayfish（小龙虾）”。</p>
+<p>7月3日，达尔文上线了Darwinia PoC-1 Testnet（Trilobita三叶虫）。PoC-1版的测试网仅对节点和开发者开放，测试持续了一个月的时间，在此期间，共计30个节点参与测试。</p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Darwinia & Web3峰会演讲回顾]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2019/08/22/web3-summit-review.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2019/08/22/web3-summit-review.html"/>
+        <updated>2019-08-22T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc6-1.jpeg" alt=""></p>
+<p>Web3基金会举办的Web3 Summit于8月19日至21日在德国柏林举行。Web3基金会主席、Substrate及Polkadot创始人Gavin Wood博士与众多Polkadot生态项目方及合作伙伴在本次会议上面向全球开发者和社区成员进行了分享。达尔文网络（Darwinia Network）创始人Denny Wang与Alex Chien应邀参会，进行了题为「非同质化资产可识别性」（Non-fungible Token Identifiability）的主体演讲。</p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Darwinia受邀W3F，出席Web3峰会并将发表主题演讲]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2019/08/19/darwinia-web3-summit.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2019/08/19/darwinia-web3-summit.html"/>
+        <updated>2019-08-19T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc5-1.jpeg" alt=""></p>
+<p>Polkadot首个应用平行链Darwinia Network（达尔文网络）受Web3 Foundation邀请，将参加于今年夏天8月19日至21日在柏林Funkhaus举行的Web3 Summit，并发表主题演讲：Non-fungible Token Identifiability。</p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Darwinia主办的Substrate Workshop顺利在南京举办]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2019/08/03/substrate-workshop-nj.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2019/08/03/substrate-workshop-nj.html"/>
+        <updated>2019-08-03T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc4-1.jpeg" alt=""></p>
+<p>2019年08月03日，由Darwinia和PolkaWorld联合举办的Substrate Workshop第六期在南京顺利举办。</p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Darwinia受邀出席#GBGEC，并发表演讲]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2019/08/02/gbgec.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2019/08/02/gbgec.html"/>
+        <updated>2019-08-02T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc3-1.jpeg" alt=""></p>
+<p>2019年08月02日，Darwinia Co-Founder Denny受邀出席了全球区块链游戏生态大会#GBGEC，并发表演讲。</p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[波卡中国行上海站 & Darwinia 分享]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2019/07/20/polkadot-darwinia-shanghai.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2019/07/20/polkadot-darwinia-shanghai.html"/>
+        <updated>2019-07-20T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc2-1.jpeg" alt=""></p>
+<p>2019年7月20日，「波卡中国行 Meetup 上海站」在华虹大厦顺利举办，Gavin Wood（Polkadot/Parity）、Alistair Stewart（W3F）、陈彦丰（LongHash）、Denny Wang（Darwinia Co-Founder）等嘉宾进行了精彩分享，共有 150 余名波卡粉丝到场。</p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Darwinia首个测试网络“三叶虫”正式发布]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2019/07/02/tribolet-release.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2019/07/02/tribolet-release.html"/>
+        <updated>2019-07-02T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>2019年07月02日，Polkadot（波卡）生态中首个游戏平行链Darwinia Network（达尔文网络）发布首个测试网络，代号“三叶虫”。</p> <p>首个测试网络仅对开发者和节点开放，后期将对社区发布功能更完善的测试版本。开发者和节点请联系社区管理员参与内部测试。</p> ]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
         </author>
     </entry>
 </feed>
