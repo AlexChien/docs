@@ -2,12 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alexchien.github.io/docusaorus/docusaorus/blog</id>
     <title>Darwinia Documentation Blog</title>
-    <updated>2020-03-12T06:00:00.000Z</updated>
+    <updated>2020-03-19T06:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alexchien.github.io/docusaorus/docusaorus/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Darwinia Documentation news and events.</subtitle>
     <logo>https://alexchien.github.io/docusaorus/docusaorus/img/logo.png</logo>
     <rights>Copyright © 2020 Darwinia Network</rights>
+    <entry>
+        <title type="html"><![CDATA[test article]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2020/03/19/test-article.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2020/03/19/test-article.html"/>
+        <updated>2020-03-19T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc99-1.png" alt=""></p>
+<p>test 2019年7月20日，「波卡中国行 Meetup 上海站」在华虹大厦顺利举办，Gavin Wood（Polkadot/Parity）、Alistair Stewart（W3F）</p>
+]]></summary>
+        <author>
+            <name>@DarwiniaNetwork</name>
+            <email/>
+            <uri>http://twitter.com/DarwiniaNetwork</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Darwinia最后一版测试网络「Crab」即将发布]]></title>
         <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2020/03/12/crab-coming.html</id>
@@ -97,12 +111,12 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Darwinia development team Itering wins funding from Web3 Foundation]]></title>
-        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/10/web3-grant-scale-en.html</id>
-        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/10/web3-grant-scale-en.html"/>
+        <title type="html"><![CDATA[Darwinia开发团队Itering荣获Web3基金会资助]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/10/web3-grant-scale.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/10/web3-grant-scale.html"/>
         <updated>2020-02-10T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc15-1.jpeg" alt=""></p>
-<p>Web3 Foundation announced a new list of W3F Grants for its funding plan. The project Scale submitted by the Darwinia development team Itering(<a href="http://www.itering.io/"><em>www.itering.io</em></a>), who has received the investment support of Web3 Foundation and has become the officially recognized project of the Web3 ecosystem and Polkadot.</p>
+<p>Web3 Foundation公布其资助计划W3F Grants的新一批名单，由DARWINIA开发团队Itering（<a href="http://www.itering.io">www.itering.io</a>）提交的项目Scale得到了Web3基金会的投资支持，成为了Web3生态和Polkadot的官方认可项目。</p>
 ]]></summary>
         <author>
             <name>@DarwiniaNetwork</name>
@@ -111,12 +125,12 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Darwinia开发团队Itering荣获Web3基金会资助]]></title>
-        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/10/web3-grant-scale.html</id>
-        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/10/web3-grant-scale.html"/>
+        <title type="html"><![CDATA[Darwinia development team Itering wins funding from Web3 Foundation]]></title>
+        <id>https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/10/web3-grant-scale-en.html</id>
+        <link href="https://alexchien.github.io/docusaorus/docusaorus/blog/2020/02/10/web3-grant-scale-en.html"/>
         <updated>2020-02-10T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p><img src="/docusaorus/blog/assets/doc15-1.jpeg" alt=""></p>
-<p>Web3 Foundation公布其资助计划W3F Grants的新一批名单，由DARWINIA开发团队Itering（<a href="http://www.itering.io">www.itering.io</a>）提交的项目Scale得到了Web3基金会的投资支持，成为了Web3生态和Polkadot的官方认可项目。</p>
+<p>Web3 Foundation announced a new list of W3F Grants for its funding plan. The project Scale submitted by the Darwinia development team Itering(<a href="http://www.itering.io/"><em>www.itering.io</em></a>), who has received the investment support of Web3 Foundation and has become the officially recognized project of the Web3 ecosystem and Polkadot.</p>
 ]]></summary>
         <author>
             <name>@DarwiniaNetwork</name>
