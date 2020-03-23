@@ -81,21 +81,25 @@
               }
             });
         </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/AlexChien/docusaorus/edit/master/content/en/crab-tut-node.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">How to run a node</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="initial-set-up"></a><a href="#initial-set-up" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Initial Set-up</h2>
-<p><strong>Compile from source</strong></p>
+<p>Compile from source</p>
+<blockquote>
 <p>Compiler environment configuration. Refer to sections 4.1 to 4.1.3 <a href="https://github.com/darwinia-network/darwinia#41-hacking-on-darwinia">https://github.com/darwinia-network/darwinia#41-hacking-on-darwinia</a><br>
 Start command<br>
 Enter the darwinia root directory<br>
 cargo build --release<br>
 The compiled executable file darwinia (.exe) can be found under darwinia / target / release</p>
-<p><strong>Download the compiled executable file</strong></p>
+</blockquote>
+<p>Download the compiled executable file</p>
+<blockquote>
 <p>macOS Catalina: <a href="https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Catalina.tar.gz">https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Catalina.tar.gz</a><br>
 macOS Mojave: <a href="https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Mojave.tar.gz">https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Mojave.tar.gz</a><br>
 ArchLinux: <a href="https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/ArchLinux.tar.gz">https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/ArchLinux.tar.gz</a><br>
 Ubuntu: <a href="https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/Ubuntu.tar.gz">https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/Ubuntu.tar.gz</a><br>
 CentOS: <a href="https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/CentOS.tar.gz">https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/CentOS.tar.gz</a><br>
 Docker: <code>docker pull darwinianetwork/darwinia:release-v0.4.6.2</code></p>
+</blockquote>
 <h2><a class="anchor" aria-hidden="true" id="execution"></a><a href="#execution" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Execution</h2>
-<p>Read the configuration and start from the file (if not in the same folder, it is best to fill in the absolute path)</p>
+<p>Read the configuration and start from the file (If not in the same folder, it is best to fill in the absolute path.)</p>
 <pre><code class="hljs">darwinia <span class="hljs-attribute">--conf</span>=example.json
 </code></pre>
 <p>Example configuration file example.json:</p>
@@ -152,7 +156,9 @@ bootnodes: connected nodes (/ip4/35.234.35.49/tcp/6666/p2p/QmbKSNfeBGYiUiWAcpoei
 <p>Start your node</p>
 <pre><code class="hljs">curl -H <span class="hljs-string">"Content-Type: application/json"</span> <span class="hljs-params">--data</span> '{ <span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>, <span class="hljs-string">"method"</span>:<span class="hljs-string">"author_rotateKeys"</span>, <span class="hljs-string">"params"</span>:[],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span> }' http:<span class="hljs-string">//localhost</span><span class="hljs-function">:23332</span>
 </code></pre>
+<blockquote>
 <p>23332 is rpc-port specified when you started the node.</p>
+</blockquote>
 <p>After the startup is successful, the console log as follows:</p>
 <pre><code class="hljs">|icefrog  | <span class="hljs-number">2019</span><span class="hljs-number">-12</span><span class="hljs-number">-28</span> <span class="hljs-number">03</span>:<span class="hljs-number">05</span>:<span class="hljs-number">02</span>   _____                      _       _
 <span class="hljs-number">0</span>|icefrog  | <span class="hljs-number">2019</span><span class="hljs-number">-12</span><span class="hljs-number">-28</span> <span class="hljs-number">03</span>:<span class="hljs-number">05</span>:<span class="hljs-number">02</span>  |  __ \                    (_)     (_)
