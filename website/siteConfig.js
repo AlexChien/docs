@@ -20,16 +20,16 @@ const users = [{
 const siteConfig = {
   title: 'Darwinia Documentation', // Title for your website.
   tagline: 'Cross-chain App Hub and Internet of Tokens',
-  url: 'https://docs.darwinia.network',
+  url: 'https://alexchien.github.io/docs/',
   baseUrl: '/docs/', // Base URL for your project, /
-  editUrl: 'https://github.com/darwinia-network/docs/edit/master/content/en/', //https://github.com/darwinia/docs/edit/master/docs/
+  editUrl: 'https://github.com/alexchien/docs/content/en/edit/master/content/en/', //https://github.com/darwinia/docs/edit/master/docs/
   repoUrl: 'https://github.com/darwinia-network/darwinia',
 
   customDocsPath: 'content/en',
 
   // Used for publishing and more
   projectName: 'docs', //docs
-  organizationName: 'darwinia-network', //darwinia
+  organizationName: 'AlexChien', //darwinia
   // cname: 'docs.darwinia.network',
 
   // For top-level user or org sites, the organization is still the same.
